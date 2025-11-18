@@ -1,0 +1,3 @@
+var documenterSearchIndex = {"docs":
+[{"location":"#WiNDC-Canada","page":"WiNDC Canada","title":"WiNDC Canada","text":"This is the documentation.","category":"section"},{"location":"docs/#API-Reference","page":"API Reference","title":"API Reference","text":"","category":"section"},{"location":"docs/#WiNDCCanada.build_canada_table-Tuple{String}","page":"API Reference","title":"WiNDCCanada.build_canada_table","text":"build_canada_table(base_directory::String)\n\nBuilds the CanadaTable by loading data from all provincial SUT Excel files located in base_directory.\n\n\n\n\n\n","category":"method"}]
+}
