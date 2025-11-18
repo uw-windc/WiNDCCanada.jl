@@ -16,7 +16,7 @@ module WiNDCCanada
     WiNDCContainer.elements(data::CanadaTable) = data.elements
 
 
-    export CanadaTable, base_table, sets, elements, domain
+    export CanadaTable, base_table, table, sets, elements, domain
 
     include("load_data.jl")
 
