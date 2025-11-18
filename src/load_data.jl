@@ -269,6 +269,11 @@ function build_canada_province_table(path::String, province::Symbol)
 
 end
 
+"""
+    build_canada_table(base_directory::String)
+
+Builds the CanadaTable by loading data from all provincial SUT Excel files located in `base_directory`.
+"""
 function build_canada_table(base_directory::String)
     provinces = [
         :AB, :BC, :CE, :MB, :NB, :NL, :NS, :NT, :NU, :ON, :PE, :QC, :SK, :YT
