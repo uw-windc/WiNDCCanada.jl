@@ -123,6 +123,7 @@ function build_canada_sets()
         (name = :Surplus, description = "Surplus", domain = :parameter),
         (name = :Value_Added, description = "Value Added", domain = :parameter),
         (name = :Final_Demand, description = "Final Demand", domain = :parameter),
+        (name = :Other_Final_Demand, description = "Non-export Final Demand", domain = :parameter),
     ])
 end
 
@@ -195,6 +196,14 @@ function build_canada_elements(data::XLSX.XLSXFile)
             (name = :export, description = "Exports", set = :Final_Demand),
             (name = :reexport, description = "Re-exports", set = :Final_Demand),
             (name = :interprovincial_export, description = "Interprovincial Exports", set = :Final_Demand),
+
+            (name = :pce, description = "Personal Consumption Expenditures", set = :Other_Final_Demand),
+            (name = :government, description = "Government Consumption Expenditures", set = :Other_Final_Demand),
+            (name = :investment, description = "Investment", set = :Other_Final_Demand),
+            (name = :inventory_change, description = "Inventory Change", set = :Other_Final_Demand),
+            #(name = :export, description = "Exports", set = :Final_Demand),
+            #(name = :reexport, description = "Re-exports", set = :Final_Demand),
+            #(name = :interprovincial_export, description = "Interprovincial Exports", set = :Final_Demand),
 
         ]),
     )
