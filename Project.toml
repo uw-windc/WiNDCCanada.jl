@@ -1,0 +1,16 @@
+name = "WiNDCCanada"
+uuid = "05cbb8b1-5bdc-410f-87f5-f44602350f39"
+version = "0.1.0"
+authors = ["Mitch Phillipson <mitch.phillipson@gmail.com>"]
+
+[deps]
+CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+WiNDCContainer = "75ccf2c7-f350-4b24-b7dd-6f142b3d3146"
+XLSX = "fdbf4ff8-1666-58a4-91e7-1b58723a45e0"
+
+[compat]
+CSV = "0.10.15"
+DataFrames = "1.8.1"
+WiNDCContainer = "0.3.0"
+XLSX = "0.10.4"
